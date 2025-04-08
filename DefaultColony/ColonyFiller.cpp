@@ -90,8 +90,8 @@ bool ColonyFiller::FillSingleSlot(Simulator::cBuilding* building, ResourceKey bu
 }
 
 void ColonyFiller::FillOptimalLayout() {
-	vector<int> mHouseSlotList = {6, 7, 8, 9, 10, 11};
-	vector<int> mEntertainSlotList = {2};
+	vector<int> mHouseSlotList = {7, 8, 9, 10, 11};
+	vector<int> mEntertainSlotList = {1, 6};
 	vector<int> mIndustrySlotList = {1, 3, 4, 5};
 	Simulator::cCommunityLayout buildingLayout = mCity->mBuildingsLayout;
 
